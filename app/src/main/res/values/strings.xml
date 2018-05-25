@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Project_TicTacToe</string>
+    <string name="title_activity_tic_tac_toe">TicTacToe</string>
 </resources>
