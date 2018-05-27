@@ -66,31 +66,32 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/rounder"
                 android:layout_centerHorizontal="true">
 
 
-                <TextView
+                <ImageView
                     android:id="@+id/icon_username"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:layout_marginLeft="12dp"
-                    android:layout_marginTop="16dp"
-                    android:text="Name : "
-                    android:textColor="#ffffff"
-                    android:textSize="20dp" />
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/username"/>
 
                 <EditText
                     android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="40sp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="9dp"
                     android:layout_toRightOf="@+id/icon_username"
-                    android:backgroundTint="@android:color/holo_blue_bright"
-                    android:hint="     input your name"
-                    android:singleLine="true"
-                    android:text=""
-                    android:textColor="#ffffff"
-                    android:textColorHint="#90989e" />
+                    android:background="#00ffffff"
+                    android:hint="Username"
+                    android:inputType="text"
+                    android:padding="20px"
+                    android:radius="10dp"
+                    android:textColorHint="#9affffff"
+                    android:textColor="#fff" />
+
             </RelativeLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -126,7 +127,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="22dp"
-                        android:background="#d93b4b"
+                        android:background="@drawable/bg_x"
                         android:text="X"
                         android:textAllCaps="false"
                         android:textColor="#fff"
@@ -138,7 +139,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="22dp"
-                        android:background="#62b959"
+                        android:background="@drawable/bg_o"
                         android:text="O"
                         android:textAllCaps="false"
                         android:textColor="#fff"
