@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_main2"
+    android:background="@drawable/main_xo5"
     tools:context="com.surached.project_tictactoe.MainActivity">
 
     <!-- TODO: Update blank fragment layout -->
@@ -35,7 +35,7 @@
                 android:gravity="center_horizontal"
                 android:text="Tic Tac Toe Game "
                 android:textColor="#fff"
-                android:textSize="18sp" />
+                android:textSize="30sp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -46,7 +46,7 @@
 
                 <ImageView
                     android:id="@+id/profile_user"
-                    android:layout_width="50dp"
+                    android:layout_width="10dp"
                     android:layout_height="45dp"
                     android:layout_marginTop="16dp"/>
 
@@ -56,12 +56,12 @@
                     android:layout_height="40sp"
                     android:layout_marginTop="16dp"
                     android:layout_toRightOf="@+id/profile_user"
-                    android:backgroundTint="@android:color/holo_green_light"
-                    android:hint="IP Address"
+                    android:backgroundTint="@android:color/holo_blue_bright"
+                    android:hint="Opponet IP Address"
                     android:singleLine="true"
                     android:text=""
                     android:textColor="#ffffff"
-                    android:textColorHint="#A7B7C2" />
+                    android:textColorHint="#90989e" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -75,9 +75,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="12dp"
                     android:layout_marginTop="16dp"
-                    android:text="Username : "
+                    android:text="Name : "
                     android:textColor="#ffffff"
-                    android:textSize="24dp" />
+                    android:textSize="20dp" />
 
                 <EditText
                     android:id="@+id/username"
@@ -85,19 +85,35 @@
                     android:layout_height="40sp"
                     android:layout_marginTop="16dp"
                     android:layout_toRightOf="@+id/icon_username"
-                    android:backgroundTint="@android:color/holo_green_light"
-                    android:hint="Username"
+                    android:backgroundTint="@android:color/holo_blue_bright"
+                    android:hint="     input your name"
                     android:singleLine="true"
                     android:text=""
                     android:textColor="#ffffff"
-                    android:textColorHint="#A7B7C2" />
+                    android:textColorHint="#90989e" />
             </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100px"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose X or O"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:orientation="horizontal">
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -110,11 +126,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="22dp"
-                        android:background="#47ac84"
+                        android:background="#d93b4b"
                         android:text="X"
                         android:textAllCaps="false"
                         android:textColor="#fff"
-                        android:textSize="18sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
                     <Button
@@ -122,11 +138,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="22dp"
-                        android:background="#3675ce"
+                        android:background="#62b959"
                         android:text="O"
                         android:textAllCaps="false"
                         android:textColor="#fff"
-                        android:textSize="18sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
