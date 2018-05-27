@@ -10,6 +10,7 @@ android:orientation="vertical"
 android:padding="6dp"
 tools:context=".ActivityTicTacToe">
 
+
     <TextView
         android:id="@+id/title_building"
         android:layout_width="fill_parent"
