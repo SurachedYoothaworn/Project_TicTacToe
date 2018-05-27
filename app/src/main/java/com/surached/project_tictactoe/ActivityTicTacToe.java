@@ -141,9 +141,9 @@ public class ActivityTicTacToe extends AppCompatActivity {
 
     public void setResponseAction(ImageButton btn, String play) {
         if (play.equals("x")) {
-            btn.setImageResource(R.drawable.btn_x);
+            btn.setImageResource(R.drawable.pic_x);
         } else if (play.equals("o")) {
-            btn.setImageResource(R.drawable.btn_o);
+            btn.setImageResource(R.drawable.pic_o);
         }
         btn.setEnabled(false);
 //        checkWinner(play, user);
